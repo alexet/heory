@@ -57,7 +57,7 @@ jobs:
         # Artifact name
         name: Logs
         # A file, directory or wildcard pattern that describes what to upload
-        path: /home/runner/work/_temp/codeql_databases/cpp/log
+        path: /home/runner/work/_temp/
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
